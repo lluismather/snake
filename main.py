@@ -1,6 +1,6 @@
 import gui
 
-width = 800
+width = 900
 height = 600
 framerate = 0.05
 

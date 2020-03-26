@@ -20,6 +20,7 @@ class gui:
         self.snake = snake.snake(self.CANVAS, self.WIDTH, self.HEIGHT, self.pixel_size)
         self.snake.place_snake()
         self.food_postition = None
+        self.testing = None
         self.place_food()
 
     def console(self, lines):
