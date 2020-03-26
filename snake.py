@@ -12,6 +12,7 @@ class snake:
         self.length = 10
         self.start_coord = (math.floor(self.WIDTH / 2), math.floor(self.HEIGHT / 2))
         self.body = [(self.start_coord[0] + (i * 5), self.start_coord[1]) for i in range(self.length)]
+        self.git = "Testing"
 
     def place_snake(self):
         for pixel in self.body:
